@@ -54,18 +54,6 @@ for fruta in lista_frutas:
     preco_total += dicionario_frutas[fruta]
 print(f"O preco total da compra é de {preco_total:.2f} reais") # preco_total)
 
-# Exercícios intermediários e mais avançados
-
-# 6. Eliminação de Duplicatas
-# Objetivo: Dada uma lista de emails, remover todos os duplicados.
-# 7. Filtragem de Dados
-# Objetivo: Dada uma lista de idades, filtrar apenas aquelas que são maiores ou iguais a 18.
-# 8. Ordenação Personalizada
-# Objetivo: Dada uma lista de dicionários representando pessoas, ordená-las pelo nome.
-# 9. Agregação de Dados
-# Objetivo: Dado um conjunto de números, calcular a média.
-# 10. Divisão de Dados em Grupos
-# Objetivo: Dada uma lista de valores, dividir em duas listas: uma para valores pares e outra para ímpares.
 
 # Exercícios com Dicionários
 # 11. Atualização de Dados
