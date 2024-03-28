@@ -55,17 +55,7 @@ for fruta in lista_frutas:
 print(f"O preco total da compra é de {preco_total:.2f} reais") # preco_total)
 
 
-# Exercícios com Dicionários
-# 11. Atualização de Dados
-# Objetivo: Dada uma lista de dicionários representando produtos, atualizar o preço de um produto específico.
-# 12. Fusão de Dicionários
-# Objetivo: Dados dois dicionários, fundi-los em um único dicionário.
-# 13. Filtragem de Dados em Dicionário
-# Objetivo: Dado um dicionário de estoque de produtos, filtrar aqueles com quantidade maior que 0.
-# 14. Extração de Chaves e Valores
-# Objetivo: Dado um dicionário, criar listas separadas para suas chaves e valores.
-# 15. Contagem de Frequência de Itens
-# Objetivo: Dada uma string, contar a frequência de cada caractere usando um dicionário.
+
 
 # Exercícios de Funções
 # 16. Escreva uma função que receba uma lista de números e retorne a soma de todos os números.
