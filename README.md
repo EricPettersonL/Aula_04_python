@@ -11,7 +11,7 @@ Funções na programação são blocos de código projetados para realizar uma t
 
  1. Crie uma lista com os números de 1 a 10 e use um loop para imprimir cada número elevado ao quadrado.
  
- ```
+ ```python
  lista_numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 for numero in lista_numeros:
@@ -19,7 +19,7 @@ for numero in lista_numeros:
  
  ```
  2. Dada a lista ["Python", "Java", "C++", "JavaScript"], remova o item "C++" e adicione "Ruby".
- ```
+ ```python
  lista_programas = ["Python", "Java", "C++", "JavaScript"]
 
 for programa in lista_programas:
@@ -31,7 +31,7 @@ print(lista_programas)
 
  ```
  3 .Crie um dicionário para armazenar informações de um livro, incluindo título, autor e ano de publicação. Imprima cada informação.
- ```
+ ```python
  livros  = {
     "titulo": "Aprendendo Python",
     "autor": "Lucas",
@@ -45,7 +45,7 @@ for livro in livros.items():
 
  ```
  4. Escreva um programa que conta o número de ocorrências de cada caractere em uma string usando um dicionário.
- ```
+ ```python
  frase = "O rato roeu a roupa do rei de roma e o rei de roma roeu a roupa do rato"
 
 dicionario = {}
@@ -59,7 +59,7 @@ print(dicionario)
 
  ```
  5. Dada a lista ["maçã", "banana", "cereja"] e o dicionário {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}, calcule o preço total da lista de compras.
-```
+```python
 lista_frutas = ["maca", "banana", "cereja"]
 dicionario_frutas = {"maca": 0.45, "banana": 0.30, "cereja": 0.65}
 
@@ -74,7 +74,7 @@ print(f"O preco total da compra é de {preco_total:.2f} reais")
 
  6. Eliminação de Duplicatas
  Objetivo: Dada uma lista de emails, remover todos os duplicados.
-```
+```python
 
 lista_email = ["a@a.com", "b@b.com", "a@a.com", "b@b.com", "c@c.com", "d@d.com"]
 nova_lista_email = []
@@ -91,7 +91,7 @@ print(email_unico)
 
  7. Filtragem de Dados
  Objetivo: Dada uma lista de idades, filtrar apenas aquelas que são maiores ou iguais a 18.
-```
+```python
 lista_idades = [18, 20, 25, 30, 35, 40, 10, 15, 12, 17, 16]
 idades_maiores_ou_igual_18 = []
 
@@ -107,7 +107,7 @@ print(idades_validas)
 
  8. Ordenação Personalizada
  Objetivo: Dada uma lista de dicionários representando pessoas, ordená-las pelo nome.
-```
+```python
 lista_pessoas = [
     {"nome": "João", "idade": 30},
     {"nome": "Maria", "idade": 25},
@@ -128,7 +128,7 @@ print(lista_pessoas)
 
  9. Agregação de Dados
  Objetivo: Dado um conjunto de números, calcular a média.
-```
+```python
 
 conjunto_numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 media = sum(conjunto_numeros) / len(conjunto_numeros)
@@ -139,7 +139,7 @@ print(f"A media dos valores {conjunto_numeros} é {media:.2f}")
 
  10. Divisão de Dados em Grupos
  Objetivo: Dada uma lista de valores, dividir em duas listas: uma para valores pares e outra para ímpares.
- ```
+ ```python
  lista_valores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 pares = []
@@ -165,7 +165,7 @@ print(f"Impares: {impares_2}")
 
  11. Atualização de Dados
  Objetivo: Dada uma lista de dicionários representando produtos, atualizar o preço de um produto específico.
-```
+```python
 lista_produtos = [
     { "nome": "arroz", "preco": 5.00},
     { "nome": "feijao", "preco": 3.00},
@@ -190,7 +190,7 @@ print(lista_produtos)
 
  12. Fusão de Dicionários
  Objetivo: Dados dois dicionários, fundi-los em um único dicionário.
-```
+```python
 dicionario_1 = {"a": 1, "b": 2}
 dicionario_2 = {"c": 3, "d": 4}
 
@@ -206,7 +206,7 @@ print(dicionario_1)
 
  13. Filtragem de Dados em Dicionário
  Objetivo: Dado um dicionário de estoque de produtos, filtrar aqueles com quantidade maior que 0.
-```
+```python
 
 estoque_produtos = {
     "arroz": 10,
@@ -226,7 +226,7 @@ print(estoque_positivo)
 
  14. Extração de Chaves e Valores
  Objetivo: Dado um dicionário, criar listas separadas para suas chaves e valores.
-```
+```python
 pessoas = {
     "nome": "Lucas",
     "idade": 20,
@@ -252,7 +252,7 @@ print(valores)
 
  15. Contagem de Frequência de Itens
  Objetivo: Dada uma string, contar a frequência de cada caractere usando um dicionário.
-```
+```python
 
 frase = "Um prazo legal de programação em Python"
 
@@ -283,7 +283,7 @@ print(frequencia_2)
 ## Exercícios de Funções
 
  16. Escreva uma função que receba uma lista de números e retorne a soma de todos os números.
-```
+```python
 def soma_numeros(numeros):
     return sum(numeros)
 
@@ -295,7 +295,7 @@ print(soma)
 
 
  17. Crie uma função que receba um número como argumento e retorne True se o número for primo e False caso contrário.
-```
+```python
 def primo(numero):
     for divisor in range(2, numero):
         if numero % divisor == 0:
@@ -308,7 +308,7 @@ print(primo(7))
 
 
  18. Desenvolva uma função que receba uma string como argumento e retorne essa string revertida.
-```
+```python
 def reverso(string):
     return string[::-1]
 
@@ -318,7 +318,7 @@ print(reverso("Lucas"))
 
 
  19. Implemente uma função que receba dois argumentos: uma lista de números e um número. A função deve retornar todas as combinações de pares na lista que somem ao número dado.
-```
+```python
 def pares_numeros(numeros, numero):
     pares = []
     
@@ -342,7 +342,7 @@ for par in resultado:
 
 
  20. Escreva uma função que receba um dicionário e retorne uma lista de chaves ordenadas.
-```
+```python
 def chaves_ordenadas(dicionario):
     return sorted(dicionario.keys())
 
@@ -356,7 +356,7 @@ print(chaves)
 ## Desafio 
 
 Usando o mesmo desafio passado, agora colocando funções nas formulas
-```
+```python
 bonus_2024: int = 1000
 
 # Solicite ao usuario que digite seu nome
